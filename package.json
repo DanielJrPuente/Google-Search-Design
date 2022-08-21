@@ -1,0 +1,31 @@
+{
+    "name": "front-end-google",
+    "version": "1.0.0",
+    "description": "Design a front-end for Google Search",
+    "main": "index.js",
+    "scripts": {
+      "sass": "sass --watch src/scss:build/css",
+      "css": "gulp css",
+      "dev": "gulp dev"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DanielJrPuente/Design-a-front-end-for-Google-Search"
+    },
+    "keywords": [
+      "Sass",
+      "Gulp",
+      "Html"
+    ],
+    "author": "Daniel Junior Puente Martinez",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DanielJrPuente/Google-Search-Design"
+    },
+    "homepage": "https://github.com/DanielJrPuente/Google-Search-Design#readme",
+    "devDependencies": {
+      "gulp": "^4.0.2",
+      "gulp-sass": "^5.1.0",
+      "sass": "^1.54.0"
+    }
+  }
